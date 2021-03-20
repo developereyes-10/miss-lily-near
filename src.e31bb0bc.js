@@ -32640,7 +32640,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function SignIn() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("p", null, "This app demonstrates a key element of NEAR\u2019s UX: once an app has permission to make calls on behalf of a user (that is, once a user signs in), the app can make calls to the blockhain for them without prompting extra confirmation. So you\u2019ll see that if you don\u2019t include a donation, your message gets posted right to the guest book."), /*#__PURE__*/_react.default.createElement("p", null, "But if you do add a donation, then NEAR will double-check that you\u2019re ok with sending money to this app."), /*#__PURE__*/_react.default.createElement("p", null, "Go ahead and sign in to try it out!"));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("p", null, "how many times have you thought of giving back to society? As per a survey, an individual contemplates charity several times a year but for most, it just ends up as a thought in the head. Why is that? Why don't we give back to society when we want to? As per another survey, people have a notion that the process of joining a charitable organization is tedious. There is a lot of paperwork that they don't want to do."), /*#__PURE__*/_react.default.createElement("p", null, "To tackle this, we have built a blockchain-based platform to connect NGOs and charitable organizations with volunteers."), /*#__PURE__*/_react.default.createElement("p", null, "So, what are you waiting for? Start donating your skills today!"));
 }
 },{"react":"../node_modules/react/index.js"}],"components/Messages.jsx":[function(require,module,exports) {
 "use strict";
@@ -32782,7 +32782,7 @@ const App = ({
       text5: ques_1.value
     }, BOATLOAD_OF_GAS, (0, _big.default)(donation.value || '0').times(10 ** 24).toFixed()).then(() => {
       contract.getMessages().then(messages => {
-        window.location.replace("/thank-you.html");
+        window.location.replace("miss-lily-near/thank-you.html");
       });
     });
   };
