@@ -32782,7 +32782,7 @@ const App = ({
       text5: ques_1.value
     }, BOATLOAD_OF_GAS, (0, _big.default)(donation.value || '0').times(10 ** 24).toFixed()).then(() => {
       contract.getMessages().then(messages => {
-        window.location.replace("https://www.google.com");
+        window.location.replace("/thank-you.html");
       });
     });
   };
@@ -58211,7 +58211,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54302" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56021" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
