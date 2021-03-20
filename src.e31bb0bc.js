@@ -32640,7 +32640,9 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function SignIn() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("p", null, "How many times have you thought of giving back to society? As per a survey, an individual contemplates charity several times a year but for most, it just ends up as a thought in the head. Why is that? Why don't we give back to society when we want to? As per another survey, people have a notion that the process of joining a charitable organization is tedious. There is a lot of paperwork that they don't want to do."), /*#__PURE__*/_react.default.createElement("p", null, "To tackle this, we have built a blockchain-based platform to connect NGOs and charitable organizations with volunteers."), /*#__PURE__*/_react.default.createElement("p", null, "So, what are you waiting for? Start donating your skills today!"));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "welcome_anim.gif"
+  }), /*#__PURE__*/_react.default.createElement("h2", null, "Welcome to Ms. Lily's Volunteers"), /*#__PURE__*/_react.default.createElement("p", null, "Contribute your time to your favourite organization.")), /*#__PURE__*/_react.default.createElement("p", null, "How many times have you thought of giving back to society? As per a survey, an individual contemplates charity several times a year but for most, it just ends up as a thought in the head. Why is that? Why don't we give back to society when we want to? As per another survey, people have a notion that the process of joining a charitable organization is tedious. There is a lot of paperwork that they don't want to do."), /*#__PURE__*/_react.default.createElement("p", null, "To tackle this, we have built a blockchain-based platform to connect NGOs and charitable organizations with volunteers."), /*#__PURE__*/_react.default.createElement("p", null, "So, what are you waiting for? Start donating your skills today!"));
 }
 },{"react":"../node_modules/react/index.js"}],"components/Messages.jsx":[function(require,module,exports) {
 "use strict";
@@ -32798,7 +32800,7 @@ const App = ({
 
   return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("h1", null, "Volunteer Registration"), currentUser ? /*#__PURE__*/_react.default.createElement("p", null) : /*#__PURE__*/_react.default.createElement("button", {
     onClick: signIn
-  }, "Log in")), currentUser ? /*#__PURE__*/_react.default.createElement(_Form.default, {
+  }, "Start Application")), currentUser ? /*#__PURE__*/_react.default.createElement(_Form.default, {
     onSubmit: onSubmit,
     currentUser: currentUser
   }) : /*#__PURE__*/_react.default.createElement(_SignIn.default, null), currentUser ? /*#__PURE__*/_react.default.createElement("button", {
@@ -58211,7 +58213,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56021" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57217" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
