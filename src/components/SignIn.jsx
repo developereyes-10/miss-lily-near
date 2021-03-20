@@ -4,18 +4,17 @@ export default function SignIn() {
   return (
     <>
       <p>
-          This app demonstrates a key element of NEAR’s UX: once an app has
-          permission to make calls on behalf of a user (that is, once a user
-          signs in), the app can make calls to the blockhain for them without
-          prompting extra confirmation. So you’ll see that if you don’t
-          include a donation, your message gets posted right to the guest book.
+        how many times have you thought of giving back to society? As per a survey, an individual contemplates charity several times a year but for most, it just ends up as a thought in the head. Why is that? Why don't we give back to society when we want to? As per another survey, people have a notion that the process of joining a charitable organization is tedious. There is a lot of paperwork that they don't want to do.
       </p>
       <p>
-          But if you do add a donation, then NEAR will double-check that
-          you’re ok with sending money to this app.
+        To tackle this, we have built a blockchain-based platform to connect NGOs and charitable organizations with volunteers.
+
+
       </p>
       <p>
-          Go ahead and sign in to try it out!
+        So, what are you waiting for? Start donating your skills today!
+
+
       </p>
     </>
   );

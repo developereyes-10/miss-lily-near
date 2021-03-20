@@ -39,7 +39,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
       Big(donation.value || '0').times(10 ** 24).toFixed()
     ).then(() => {
       contract.getMessages().then(messages => {
-        window.location.replace("https://www.google.com");
+        window.location.replace("offer-letter.html");
       });
     });
   };
