@@ -62,7 +62,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
         <h1>Volunteer Registration</h1>
         { currentUser
           ? <p></p>
-          : <button onClick={signIn}>Log in</button>
+          : <button onClick={signIn}>Start Application</button>
         }
       </header>
       { currentUser

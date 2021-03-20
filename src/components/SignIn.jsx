@@ -3,6 +3,11 @@ import React from 'react';
 export default function SignIn() {
   return (
     <>
+      <div>
+        <img src="welcome_anim.gif"/>
+        <h2>Welcome to Ms. Lily's Volunteers</h2>
+        <p>Contribute your time to your favourite organization.</p>
+      </div>
       <p>
         How many times have you thought of giving back to society? As per a survey, an individual contemplates charity several times a year but for most, it just ends up as a thought in the head. Why is that? Why don't we give back to society when we want to? As per another survey, people have a notion that the process of joining a charitable organization is tedious. There is a lot of paperwork that they don't want to do.
       </p>
