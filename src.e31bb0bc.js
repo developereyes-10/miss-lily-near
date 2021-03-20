@@ -32782,7 +32782,7 @@ const App = ({
       text5: ques_1.value
     }, BOATLOAD_OF_GAS, (0, _big.default)(donation.value || '0').times(10 ** 24).toFixed()).then(() => {
       contract.getMessages().then(messages => {
-        window.location.replace("miss-lily-near/offer-letter.html");
+        window.location.replace("offer-letter.html");
       });
     });
   };
